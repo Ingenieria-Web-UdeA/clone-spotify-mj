@@ -3,8 +3,8 @@ const Playlists = {
     {
       id: 'pl1',
       title: 'Todays Top Hits',
-      description: 'Jung Kook is on top of the Hottest 50!',
-      image: 'https://ingenieria-web-spotify-media.s3.amazonaws.com/todays-top-hits.jpg',
+      description: 'Jung Kook is on top of the Hottest 50 again!',
+      image: 'https://ingenieria-web-spotify-media.s3.amazonaws.com/tth.jpg',
     },
     {
       id: 'pl2',
