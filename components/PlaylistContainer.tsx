@@ -15,12 +15,12 @@ const PlaylistContainer = ({ title }: PlaylistContainer) => {
         <PlaylistCard
           title={`Today's Top Hits`}
           description='Jung Kook is on top of the Hottest 50!'
-          image='/images/tth.jpg'
+          image='https://ingenieria-web-spotify-media.s3.amazonaws.com/tth.jpg'
         />
         <PlaylistCard
           title={`Rap Caviar`}
           description='New music from Drake, Rod Wave and Doja Cat!'
-          image='/images/rc.jpg'
+          image='https://ingenieria-web-spotify-media.s3.amazonaws.com/rc.jpg'
         />
       </div>
     </section>
