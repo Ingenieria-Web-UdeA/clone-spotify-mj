@@ -20,7 +20,7 @@ const LogInDialog = ({ open, setOpen }: LogInDialogProps) => {
             <Button
               text='Close'
               type='secondary'
-              handleClick={() => {
+              handleClick={() => { 
                 setOpen(false);
               }}
             />
