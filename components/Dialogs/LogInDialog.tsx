@@ -1,5 +1,5 @@
 import { Dialog, DialogContent, DialogTitle } from '@mui/material';
-import { Button } from '../Button';
+import { Button } from '@/components/Button';
 import { Dispatch, SetStateAction } from 'react';
 
 interface LogInDialogProps {
