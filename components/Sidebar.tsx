@@ -17,8 +17,17 @@ const Sidebar = () => {
         <div className='px-1'>
           <SpotifyLogo />
         </div>
-        <IconLink isActive text='Home' ActiveIcon={MdHomeFilled} InactiveIcon={MdOutlineHome} />
-        <IconLink text='Search' ActiveIcon={MdOutlineSavedSearch} InactiveIcon={MdSearch} />
+        <IconLink
+          isActive
+          text='Home'
+          ActiveIcon={MdHomeFilled}
+          InactiveIcon={MdOutlineHome}
+        />
+        <IconLink
+          text='Search'
+          ActiveIcon={MdOutlineSavedSearch}
+          InactiveIcon={MdSearch}
+        />
       </div>
       <div className='h-full dark-card flex flex-col gap-6'>
         <div className='flex items-center justify-between'>
